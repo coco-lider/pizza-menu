@@ -2,6 +2,7 @@ import React from 'react'
 import location from '../assets/loacation.png'
 import logoPizza from '../assets/pizza-b.png'
 import Sidebar from './Sidebar'
+import Navigation from './Navigation'
 
 const Header = () => {
   return (
@@ -27,6 +28,9 @@ const Header = () => {
             </div>
             <Sidebar/>
         </div>
+            <div>
+            <Navigation/>
+            </div>
       </header>
     </div>
   )
